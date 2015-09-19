@@ -1,1 +1,6 @@
 pthread_server
+PthreadServer_TCP.cbp
+PthreadServer_TCP.depend
+bin/
+obj/
+PthreadServer_TCP.layout
