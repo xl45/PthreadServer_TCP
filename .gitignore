@@ -4,3 +4,4 @@ PthreadServer_TCP.depend
 bin/
 obj/
 PthreadServer_TCP.layout
+*.txt

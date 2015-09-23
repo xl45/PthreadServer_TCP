@@ -2,7 +2,7 @@
 #include "PthreadServer.h"
 
 int main(){
-    PthreadServer myServer("3480");
+    PthreadServer myServer("6002");
     myServer.acceptConnections();
 
     return 0;

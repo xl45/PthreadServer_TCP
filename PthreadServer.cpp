@@ -118,6 +118,8 @@ void * service( void * arg ){
             continue;
         }
 
+	std::cout << "****server receive msg: \n" << recv_buffer << std::endl;
+
         // get the request file name
         std::string req_filename = get_req_filename(recv_buffer);
         if( req_filename == "badreq" ){
